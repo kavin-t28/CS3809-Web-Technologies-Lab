@@ -1,0 +1,54 @@
+/* General styles for the entire application */
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Styles for individual todo items */
+.todo-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Styles for completed todo items */
+.completed {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* Styles for the todo list container */
+.todo-list {
+  margin-top: 20px;
+}
+
+/* Styles for the input and button in the todo form */
+.todo-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.todo-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}

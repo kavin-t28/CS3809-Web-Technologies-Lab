@@ -1,0 +1,12 @@
+/* display.component.css */
+.display {
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
